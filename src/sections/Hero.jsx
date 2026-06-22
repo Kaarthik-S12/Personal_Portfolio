@@ -11,6 +11,11 @@ import resume from "@/assets/Kaarthik_S_Resume.pdf";
 import backgroungimagePhoto from "@/assets/hero.png";
 
 const skills = [
+  "PyCharm",
+  "Figma",
+  "Redis",
+  "Docker",
+  "AWS",
   "Spring Boot",
   "Java",
   "React",
@@ -18,9 +23,6 @@ const skills = [
   "MongoDB",
   "DSA",
   "Object-Oriented Programming",
-  "Redis",
-  "Docker",
-  "AWS",
   "Vercel",
   "Tailwind CSS",
   "Linux",
@@ -29,8 +31,6 @@ const skills = [
   "PuTTY",
   "IntelliJ",
   "VScode",
-  "PyCharm",
-  "Figma",
   "Git",
   "GitHub Actions",
 ];

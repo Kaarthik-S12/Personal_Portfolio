@@ -1,36 +1,39 @@
 import { ArrowUpRight } from "lucide-react";
 import { FaGithub } from "react-icons/fa";
 import { AnimatedBorderButton } from "@/components/AnimatedBorderButton";
+import smartstep from "@/assets/smart-step.png";
+import travelbucket from "@/assets/travel-bucket.png";
+import smartfile from "@/assets/smart-file-organizer.png";
 const projects = [
   {
      title: "Smart File Organizer",
     description:
       "An intelligent file management system that automatically analyzes and categorizes files using metadata and extension-based classification. Features file segregation, custom path management, and efficient organization.",
-    image: "/projects/smart-file-organizer.png",
+    image: smartfile,
     tags: ["React", "Spring Boot", "FastAPI", "MySQL", "Python"],
-    github: "#",
+    github: "https://github.com/Kaarthik-S12/Smart_file_organizer",
   },
   {
     title: "Smart-Step",
     description:
       "An IoT-based animal monitoring system that tracks cattle rest and activity patterns using sensors and Wi-Fi-based communication for reliable farm health monitoring.",
-    image: "/projects/smart-step.png",
+    image: smartstep,
     tags: ["React", "Spring Boot", "MySQL", "Embedded C++"],
-    github: "#",
+    github: "https://github.com/Kaarthik-S12/smart_step_repo",
   },
   {
     title: "Travel Bucket List",
     description:
       "A full-stack travel planning platform where users can manage destinations, track completed trips, store travel memories, and explore curated travel recommendations.",
-    image: "/projects/travel-bucket-list.png",
+    image: travelbucket,
     tags: ["React", "Spring Boot", "MySQL"],
-    github: "#",
+    github: "https://github.com/Kaarthik-S12/TravelBucketList",
   },
 ];
 
 export const Projects = () => {
   return (
-    <section id="projects" className="py-32 relative overflow-hidden">
+    <section id="projects" className="pt-20 pb-10 relative overflow-hidden">
       {/* Bg glows */}
       <div className="absolute top-1/4 right-0 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
       <div className="absolute bottom-1/4 left-0 w-64 h-64 bg-highlight/5 rounded-full blur-3xl" />
