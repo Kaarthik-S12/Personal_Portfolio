@@ -3,26 +3,27 @@ import { Code2, Lightbulb, Rocket, Users } from "lucide-react";
 const highlights = [
   {
     icon: Code2,
-    title: "Clean Code",
+    title: "Full Stack Development",
     description:
-      "Writing maintainable, scalable code that stands the test of time.",
+      "Developing end-to-end web applications using React, Spring Boot, MySQL, and MongoDB.",
   },
   {
     icon: Rocket,
-    title: "Performance",
+    title: "Problem Solving",
     description:
-      "Optimizing for speed and delivering lightning-fast user experiences.",
+      "Solved 600+ coding problems with a strong focus on Data Structures and Algorithms.",
   },
   {
     icon: Users,
-    title: "Collaboration",
-    description: "Working closely with teams to bring ideas to life.",
+    title: "Teamwork",
+    description:
+      "Collaborated effectively during internships and project development to deliver quality solutions.",
   },
   {
     icon: Lightbulb,
     title: "Innovation",
     description:
-      "Staying ahead with the latest technologies and best practices.",
+      "Building impactful projects in Web Development, IoT, and Software Automation.",
   },
 ];
 
@@ -40,39 +41,39 @@ export const About = () => {
             </div>
 
             <h2 className="text-4xl md:text-5xl font-bold leading-tight animate-fade-in animation-delay-100 text-secondary-foreground">
-              Building the future,
+              Turning ideas into
               <span className="font-serif italic font-normal text-white">
                 {" "}
-                one component at a time.
+                real-world solutions.
               </span>
             </h2>
 
             <div className="space-y-4 text-muted-foreground animate-fade-in animation-delay-200">
               <p>
-                I'm a passionate software engineer with over 5 years of
-                experience crafting digital products that make a difference. My
-                journey started with a curiosity for how things work on the web,
-                and it has evolved into a deep expertise in modern frontend
-                technologies.
+                I'm Kaarthik S, a Java Full Stack Developer and Electronics &
+                Communication Engineering student at Sri Eshwar College of Engineering.
+                I am passionate about building scalable web applications and solving
+                real-world problems through technology.
               </p>
               <p>
-                I specialize in React, Next.js, and TypeScript, building
-                everything from sleek landing pages to complex enterprise
-                applications. My approach combines technical excellence with a
-                keen eye for design and user experience.
+                My expertise includes Java, Spring Boot, React, MySQL, MongoDB, and
+                modern web technologies. Through internships and hands-on projects,
+                I have developed full-stack applications, IoT-based solutions, and
+                intelligent software systems that address practical challenges.
               </p>
               <p>
-                When I'm not coding, you'll find me exploring new technologies,
-                contributing to open-source projects, or sharing knowledge with
-                the developer community.
+                Beyond development, I actively practice Data Structures and Algorithms,
+                having solved 600+ coding problems and achieved a LeetCode rating of
+                1661. I continuously explore cloud technologies, software architecture,
+                and emerging technologies to enhance my skills as a software engineer.
               </p>
             </div>
 
             <div className="glass rounded-2xl p-6 glow-border animate-fade-in animation-delay-300">
               <p className="text-lg font-medium italic text-foreground">
-                "My mission is to create digital experiences that are not just
-                functional, but truly delightful — products that users love to
-                use and developers love to maintain."
+                "I believe technology should solve meaningful problems. My goal is to
+                 build scalable, reliable, and impactful software solutions while
+                 continuously growing as a developer."
               </p>
             </div>
           </div>

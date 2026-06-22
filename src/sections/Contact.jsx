@@ -14,20 +14,20 @@ const contactInfo = [
   {
     icon: Mail,
     label: "Email",
-    value: "pedro@example.com",
-    href: "mailto:pedro@example.com",
+    value: "kaarthik.s2023ece@sece.ac.in",
+    href: "mailto:kaarthik.s2023ece@sece.ac.in",
   },
   {
     icon: Phone,
     label: "Phone",
-    value: "+1 (555) 123-4567",
-    href: "tel:+15551234567",
+    value: "+91 9952690366",
+    href: "tel:+919952690366",
   },
   {
     icon: MapPin,
     label: "Location",
-    value: "San Francisco, CA",
-    href: "#",
+    value: "Vellakoil,Tiruppur,Tamil Nadu,India -638 111",
+    href: "https://maps.app.goo.gl/SuskmBRiibNARP7h9",
   },
 ];
 
@@ -97,17 +97,16 @@ export const Contact = () => {
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto mb-16">
           <span className="text-secondary-foreground text-sm font-medium tracking-wider uppercase animate-fade-in">
-            Get In Touch
+           Let's Connect
           </span>
           <h2 className="text-4xl md:text-5xl font-bold mt-4 mb-6 animate-fade-in animation-delay-100 text-secondary-foreground">
-            Let's build{" "}
+            Let's create{" "}
             <span className="font-serif italic font-normal text-white">
-              something great.
+              something impactful.
             </span>
           </h2>
           <p className="text-muted-foreground animate-fade-in animation-delay-200">
-            Have a project in mind? I'd love to hear about it. Send me a message
-            and let's discuss how we can work together.
+            Whether it's a software engineering opportunity, a collaboration, or an innovative project idea, I'd be happy to connect and discuss how I can contribute.
           </p>
         </div>
 
@@ -214,7 +213,7 @@ export const Contact = () => {
           <div className="space-y-6 animate-fade-in animation-delay-400">
             <div className="glass rounded-3xl p-8">
               <h3 className="text-xl font-semibold mb-6">
-                Contact Information
+                Reach Out
               </h3>
               <div className="space-y-4">
                 {contactInfo.map((item, i) => (
@@ -241,12 +240,12 @@ export const Contact = () => {
             <div className="glass rounded-3xl p-8 border border-primary/30">
               <div className="flex items-center gap-3 mb-4">
                 <span className="w-3 h-3 bg-green-500 rounded-full animate-pulse" />
-                <span className="font-medium">Currently Available</span>
+                <span className="font-medium">Open to Opportunities</span>
               </div>
               <p className="text-muted-foreground text-sm">
-                I'm currently open to new opportunities and exciting projects.
-                Whether you need a full-time engineer or a freelance consultant,
-                let's talk!
+                Actively seeking Software Engineer, Java Full Stack Developer,
+and Backend Development opportunities. I'm always excited to
+work on challenging projects and collaborate with passionate teams.
               </p>
             </div>
           </div>

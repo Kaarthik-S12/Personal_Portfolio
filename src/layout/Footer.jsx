@@ -1,7 +1,7 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 const socialLinks = [
-  { icon: FaGithub, href: "#", label: "GitHub" },
-  { icon: FaLinkedin, href: "#", label: "LinkedIn" },
+  { icon: FaGithub, href: "https://github.com/Kaarthik-S12", label: "GitHub" },
+  { icon: FaLinkedin, href: "https://www.linkedin.com/in/kaarthik-s-aa5533309/", label: "LinkedIn" },
 ];
 
 const footerLinks = [
@@ -21,10 +21,10 @@ export const Footer = () => {
           {/* Logo & Copyright */}
           <div className="text-center md:text-left">
             <a href="#" className="text-xl font-bold tracking-tight">
-              PM<span className="text-primary">.</span>
+              KS<span className="text-primary">.</span>
             </a>
             <p className="text-sm text-muted-foreground mt-2">
-              © {currentYear} Pedro Machado. All rights reserved.
+              © {currentYear} Kaarthik Somasundar. All rights reserved.
             </p>
           </div>
 
